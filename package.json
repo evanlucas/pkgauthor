@@ -1,0 +1,28 @@
+{
+  "name": "pkgauthor",
+  "version": "0.0.0",
+  "description": "parses the author field of a package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*.js",
+    "cover": "./scripts/cover.sh && jostle coverage.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evanlucas/pkgauthor.git"
+  },
+  "keywords": [
+    "package.json",
+    "author"
+  ],
+  "author": "Evan Lucas <evan.lucas@hattiesburgclinic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/pkgauthor/issues"
+  },
+  "homepage": "https://github.com/evanlucas/pkgauthor",
+  "devDependencies": {
+    "jostle": "0.0.1",
+    "should": "^3.3.1"
+  }
+}
