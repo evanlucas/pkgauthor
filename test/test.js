@@ -29,6 +29,15 @@ describe('pkgauthor', function() {
       out.should.have.property('email', 'evanlucas@me.com')
       out.should.have.property('url', 'http://curapps.com')
     })
+
+    it('should work with empty email', function() {
+      var input = 'Evan Lucas <>'
+      var out = author(input)
+      out.should.be.type('object')
+      out.should.have.property('name', 'Evan Lucas')
+      out.should.have.property('email', '')
+      out.should.have.property('url', '')
+    })
   })
 
   describe('object', function() {
