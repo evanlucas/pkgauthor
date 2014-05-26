@@ -23,6 +23,7 @@
   "homepage": "https://github.com/evanlucas/pkgauthor",
   "devDependencies": {
     "jostle": "0.0.1",
+    "blanket": "~1.1.6",
     "should": "^3.3.1"
   }
 }
