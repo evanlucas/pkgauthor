@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec test/*.js",
-    "cover": "./scripts/cover.sh && jostle coverage.json"
+    "cover": "mocha -r blanket -R json-cov | jostle"
   },
   "repository": {
     "type": "git",
