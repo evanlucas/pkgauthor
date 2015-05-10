@@ -1,5 +1,7 @@
 # pkgauthor
 
+[![Build Status](https://travis-ci.org/evanlucas/pkgauthor.svg)](https://travis-ci.org/evanlucas/pkgauthor)
+
 parses the author field of a package.json
 
 ## Install
