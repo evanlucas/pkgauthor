@@ -4,8 +4,7 @@
   "description": "parses the author field of a package.json",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec",
-    "cover": "istanbul cover _mocha -- -R spec"
+    "test": "tap test/*.js --cov"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,6 @@
   },
   "homepage": "https://github.com/evanlucas/pkgauthor",
   "devDependencies": {
-    "istanbul": "~0.3.13",
-    "mocha": "~2.2.4",
-    "should": "~3.3.1"
+    "tap": "~2.2.0"
   }
 }
