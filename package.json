@@ -1,6 +1,6 @@
 {
   "name": "pkgauthor",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "parses the author field of a package.json",
   "main": "index.js",
   "scripts": {
