@@ -5,6 +5,9 @@
 
 parses the author field of a package.json
 
+*Note: only works on iojs and node v4+. To use with an older version of node,
+install `pkgauthor@1`.*
+
 ## Install
 
 ```bash
