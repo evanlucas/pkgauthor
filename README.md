@@ -1,6 +1,7 @@
 # pkgauthor
 
 [![Build Status](https://travis-ci.org/evanlucas/pkgauthor.svg)](https://travis-ci.org/evanlucas/pkgauthor)
+[![Coverage Status](https://coveralls.io/repos/evanlucas/pkgauthor/badge.svg?branch=master&service=github)](https://coveralls.io/github/evanlucas/pkgauthor?branch=master)
 
 parses the author field of a package.json
 
